@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-06 23:08+0000\n"
-"PO-Revision-Date: 2012-07-06 23:08+0000\n"
+"POT-Creation-Date: 2012-07-02 20:40+0000\n"
+"PO-Revision-Date: 2012-07-02 20:40+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,23 +16,17 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: product_customer_code
-#: field:product.customer.code,partner_id:0
-msgid "Customer"
-msgstr "Cliente"
-
-#. module: product_customer_code
 #: view:product.product:0
 msgid "Information"
-msgstr "Information"
+msgstr "Información"
 
 #. module: product_customer_code
 #: view:product.product:0
 msgid "Customer Code"
-msgstr "Codigo del Cliente"
+msgstr "Código del Cliente"
 
 #. module: product_customer_code
 #: model:res.groups,name:product_customer_code.group_product_customer_code
-#: model:res.groups,name:product_customer_code.group_product_customer_code_manager
 msgid "Product_Customer / Manager"
 msgstr "Producto_Cliente / Gerente"
 
@@ -52,11 +46,7 @@ msgid "Product Customer Code"
 msgstr "Código del Producto por Cliente"
 
 #. module: product_customer_code
-#: model:ir.model,name:product_customer_code.model_product_customer_code
-msgid "Add manies Code of Customer's"
-msgstr "Agregar varios códigos de clientes"
-
-#. module: product_customer_code
+#: model:ir.model,name:product_customer_code.model_product_product
 #: field:product.customer.code,product_id:0
 msgid "Product"
 msgstr "Producto"
@@ -64,40 +54,39 @@ msgstr "Producto"
 #. module: product_customer_code
 #: field:product.product,product_customer_code_ids:0
 msgid "Customer Codes"
-msgstr "Codigo del Cliente"
-
-#. module: product_customer_code
-#: model:ir.model,name:product_customer_code.model_product_product
-msgid "Producto"
-msgstr "Producto"
+msgstr "Código del Cliente"
 
 #. module: product_customer_code
 #: constraint:product.product:0
 msgid "Error: Invalid ean code"
-msgstr "Error: Código EAN no válido"
+msgstr "Error: Código EAN erróneo"
 
 #. module: product_customer_code
 #: help:product.customer.code,product_code:0
-msgid "This customer's product code will be used when printing a request for quotation."
-msgstr "El código de producto de este cliente se utiliza cuando se imprime una solicitud de cotización."
+msgid "This customer's product code will be used when searching into a request for quotation."
+msgstr "El código de producto de este cliente se utiliza cuando se busca dentro de una solicitud de cotización."
 
 #. module: product_customer_code
 #: field:product.customer.code,product_name:0
 msgid "Customer Product Name"
-msgstr "Nombre del Producto por Cliente"
+msgstr "Nombre del producto"
 
 #. module: product_customer_code
-#: model:res.groups,name:product_customer_code.group_product_customer_code_user
-msgid "Product_Customer / User"
-msgstr "Producto_Cliente / Usuario"
+#: field:product.customer.code,partner_id:0
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: product_customer_code
+#: help:product.customer.code,product_name:0
+msgid "This customer's product name will be used when searching into a request for quotation."
+msgstr "El nombre de producto de este cliente se utiliza cuando se busca dentro de una solicitud de cotización."
+
+#. module: product_customer_code
+#: model:ir.model,name:product_customer_code.model_product_customer_code
+msgid "Add manies Code of Customer's"
+msgstr "Agregar varios códigos de clientes"
 
 #. module: product_customer_code
 #: sql_constraint:product.customer.code:0
 msgid "Product Code must be unique"
 msgstr "El código del producto debe ser unico"
-
-#. module: product_customer_code
-#: help:product.customer.code,product_name:0
-msgid "This customer's product name will be used when printing a request for quotation. Keep empty to use the internal one."
-msgstr "El nombre de producto de este cliente se utiliza cuando se imprime una solicitud de cotización. Mantenga vacío para usar una interna."
-
