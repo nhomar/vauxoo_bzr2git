@@ -26,7 +26,8 @@
     'author': 'CLEARCORP S.A.',
     'website': 'http://clearcorp.co.cr',
     'category': 'Development',
-    'description': """Adds a wizard to start a Winpdb debugger connection.
+    'description': """
+Adds a wizard to start a Winpdb debugger connection.
     """,
     'depends': ['base'],
     'demo_xml': [],
