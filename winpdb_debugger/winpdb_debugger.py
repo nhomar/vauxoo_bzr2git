@@ -3,7 +3,7 @@
 #
 #    OpenERP, Open Source Management Solution
 #    Addons modules by CLEARCORP
-#    Copyright (C) 2009-TODAY (<http://clearcorp.co.cr>).
+#    Copyright (C) 2009-TODAY (<http://clearcorp.co.cr>)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
